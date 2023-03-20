@@ -1,0 +1,38 @@
+body {
+    background-color: blueviolet;
+    font-family: 'Castoro', serif;;
+}
+
+article {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 15px;
+}
+
+.first-img {
+    display: block;
+    margin: auto;
+    max-width: 550px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    padding-bottom: 20px;
+}
