@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    background: #e5e5e5;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+.first-cookie {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #0B2239;
+    margin: 24px 0 0 0;
+}
+
+.first-cookie a + button {
+    margin-left: 10px;
+}
+
+.first-cookie p {
+    max-width: 922px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+    color: white;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.first-cookie a {
+    color: #4AD295;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-left: 42px;
+    margin-right: 20px;
+}
+
+.first-cookie button {
+    color: white;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    background-color: #4AD295;
+    width: 130px;
+    height: 36px;
+    border-radius: 2px;
+}
+
+.second-cookie {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    background-color: #2B2627;
+    margin: 24px 0 0 0;    
+}
+
+.second-cookie p {
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+    margin: 0 20px 0 8px;
+    padding: 16px 0 16px 0;
+}
+
+.second-cookie a {
+    color: white;
+    cursor: pointer;
+}
+
+.third-cookie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    max-width: 560px;
+    margin: 24px 0 0 0;
+    border-radius: 16px;
+}
+
+.third-cookie img {
+    padding: 8px;
+    background: #EA4C891A;
+    border-radius: 10px;
+}
+
+.third-cookie p {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    max-width: 347px;
+    margin: 0 10px 0 10px;
+    padding: 16px 0 16px 0;
+}
+
+.third-cookie a {
+    color: #EA4C89;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.third-cookie__first_btn {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    width: 63px;
+    height: 28px;
+    border-radius: 8px;
+    background:#0D0C220D;
+}
+
+.third-cookie__second_btn {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    width: 52px;
+    height: 28px;
+    border-radius: 8px;
+    background:#EA4C89;
+    margin-left: 10px;
+    color: white;
+}
+
+.fourth-cookie {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #26262B;
+    border-radius: 10px;
+    margin: 24px 0 0 0;     
+}
+
+.fourth-cookie p {
+    max-width: 469px;
+    padding: 12px 0 12px 0;
+    margin: 0 10px 0 16px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.fourth-cookie a {
+    color: #E6842E;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fourth-cookie button {
+    background-color: white;
+    color: black;
+    width: 49px;
+    height: 28px;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.fifth-cookie-group {
+    display: flex;
+    gap: 40px;
+    margin: 24px 0 0 0;  
+}
+
+.fifth-cookie-group__first_part {
+    color: white;
+    width: 100%;
+    max-width: 360px;
+    background: #1C2540F2;
+    border-radius: 6px;
+}
+
+.fifth-cookie__first_part_container {
+    padding: 24px;
+}
+
+.fifth-cookie__first_part_container a {
+    color: white;
+    cursor: pointer;
+}
+
+.fifth-cookie-group__first_part h2 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.first-text-type {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.second-text-type {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.fifth-cookie-group__first_lower_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fifth-cookie-group__first_lower_part button {
+    background: #09B3AF;
+    width: 85px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.fifth-cookie-group__second_part {
+    width: 100%;
+    max-width: 360px;
+    max-height: 170px;
+    background: white;
+    border-radius: 16px;
+}
+
+.fifth-cookie__second_part_container {
+    padding: 16px;
+}
+
+.fifth-cookie__second_part_container h2 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.fifth-cookie__second_part_container p {
+    color: #687F8C;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.fifth-cookie-group__first_btn {
+    color: #687F8C;
+    background: #EAF0F4;
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.fifth-cookie-group__second_btn {
+    color: white;
+    background: #40C1A7;
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.sixth-cookie-group {
+    display: flex;
+    gap: 40px;
+    margin: 24px 0 24px 0;
+}
+
+.sixth-cookie-group__first_part {
+    width: 320px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%);
+}
+
+.sixth-cookie-group__first_container {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sixth-cookie-group__first_container h3 {
+    color: #15295A;
+    font-weight: 900;
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.sixth-cookie-group__first_container p {
+    color: #15295A;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+}
+
+.sixth-cookie-group__first_container button {
+    width: 121px;
+    height: 44px;
+    font-family: 'Inter';
+    font-weight: 700;
+    border-radius: 43px;
+    background: #4A7EFF;
+    color: white;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.sixth-cookie-group__second_part {
+    background: white;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 320px;
+    max-height: 137px;
+}
+
+.sixth-cookie-group__second_container {
+    padding: 16px;
+}
+
+.sixth-cookie-group__second_container p {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.sixth-cookie-group__second_lower_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sixth-cookie-group__second_lower_part a {
+    color: #6666FF;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sixth-cookie-group__second_lower_part button {
+    color: white;
+    background: #6666FF;
+    width: 64px;
+    height: 33px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
