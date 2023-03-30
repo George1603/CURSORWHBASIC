@@ -185,7 +185,8 @@ footer {
 
 .footer-container__lower_flex {
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
+    gap: 120px;    
 }
 
 .footer-container__lower_flex_boxes {
@@ -234,7 +235,7 @@ ul {
 }
 
 #end-rights {
-    padding-left: 60px;
+    padding-left: 15px;
     font-family: 'Lato';
     font-size: 12px;
     font-weight: 400;
