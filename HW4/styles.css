@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.first-section {
+    background: #ED4C5C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 94px 216px 95px 165px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    max-width: 445px;
+    margin-bottom: 24px; 
+}
+
+.first-section p {
+    color: white;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: 'justified';
+    max-width: 445px;
+    margin-bottom: 44px;
+}
+
+.first-section_icons_container {
+    display: flex;
+    gap: 25px;
+}
+
+.first-section__slider_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.first-section__third_img {
+    position: relative;
+    z-index: 1;
+}
+
+.first-section__first_img {
+    position: absolute;
+    z-index: 0;
+    right: 110px;
+}
+
+.first-section__second_img {
+    position: absolute;
+    z-index: 0;
+    left: 110px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;  
+    padding: 117px 165px 78px 176px;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    margin-top: 0;
+}
+
+.second-section p {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: 'justified';
+    max-width: 434px;
+    margin-top: 50px;
+}
+
+form {
+    margin: 0;
+    font-family: 'Lato';
+    display: inline-block;
+    max-width: 540px;       
+}
+
+#input-first-name {
+    width: 40%;
+    height: 60px;
+    border-radius: 6px;
+    padding-left: 31px;
+    border: 1px solid #333333;
+    margin-right: 30px;
+}
+
+#input-last-name {
+    width: 40%;
+    height: 60px;
+    border-radius: 6px;
+    padding-left: 31px;
+    border: 1px solid #333333;    
+}
+
+#input-phone-number {
+    width: 93%;
+    height: 60px;
+    border-radius: 6px;
+    padding-left: 31px;
+    border: 1px solid #333333;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#form-select {
+    width: 99%;
+    height: 60px;
+    border-radius: 6px;
+    padding-left: 31px;
+    border: 1px solid #333333;
+}
+
+#form-button {
+    color: white;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    height: 60px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    padding: 17px 34px;
+    margin-top: 27px;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 435px;
+    background: #FAFAFA;
+}
+
+.footer-container p a {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.footer-container__lower_flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 85px 166px 81px 166px;
+}
+
+.footer-container__lower_flex_boxes {
+    max-width: 254px;
+}
+
+.footer-container__lower_flex_boxes p {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.footer-container__lower_flex_boxes ul {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    font-weight: bold;
+    margin-bottom: 33px;   
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-container__lower_flex_boxes a {
+    text-decoration: none;
+    color: black;    
+}
+
+.footer-container__lower_flex_boxes_SVG img {
+    cursor: pointer;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+#end-rights {
+    padding-left: 215px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+}
