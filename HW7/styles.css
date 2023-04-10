@@ -110,6 +110,7 @@ a:hover svg {
     background: url(images/hero.png) center center / cover no-repeat;
     padding: 103px 0 118px 0;
     background-color: #b1a9a7;
+    margin-bottom: 71px;
 }
 
 .first-section-wrapper {

@@ -528,14 +528,17 @@ svg {
 
 #FB-svg:hover circle {
     fill: purple;
+    opacity: 1;
 }
 
 #TWIT-svg:hover circle {
     fill: aqua;
+    opacity: 1;
 }
 
 #INST-svg:hover circle {
     fill: #F063B8;
+    opacity: 1;
 }
 
 .footer__lower_wrapper_adress p {
