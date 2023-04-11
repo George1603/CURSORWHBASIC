@@ -24,24 +24,26 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1150px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #fff;
 }
 
 .header-upper-container {
-    padding: 16px 0;
-    background: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 hr {
     margin: 0;
     color: beige;
-}
-
-.header-upper-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .header-upper-container span {
@@ -50,6 +52,12 @@ hr {
     font-weight: 400;
     line-height: 41px;
     letter-spacing: 0em;
+}
+
+.header-upper-container span a {    
+    cursor: pointer;
+    text-decoration: none;
+    color: #1B2437;
 }
 
 .header-upper-container__central_wrapper {
@@ -66,9 +74,13 @@ hr {
     align-items: center;
 }
 
-a:hover path {
+.fill-svg:hover path {
 	fill: #0051ff;
-	}
+}
+
+.stroke-svg:hover path {
+    stroke: #0051ff;
+}
 
 a:hover svg {
 	transform: scale(1.2);
@@ -76,8 +88,8 @@ a:hover svg {
 }
 
 .header-lower-container {
-    padding: 20px 0;
-    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;  
 }
 
 .header-lower-container ul {
@@ -85,13 +97,18 @@ a:hover svg {
     align-items: center;
     justify-content: center;
     gap: 80px;
+    padding: 0;
+    margin: 0;
 }
 
 .header-lower-container li {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
     list-style: none;
 }
 
-.header-lower-container a {
+.header-lower-container li a {
     text-decoration: none;
     cursor: pointer;
     color: black;
@@ -99,24 +116,39 @@ a:hover svg {
     font-size: 28px;
     font-weight: 400;
     line-height: 37px;
-    letter-spacing: 0em;
+    letter-spacing: 0em;        
 }
 
-.header-lower-container a:hover {
+.header-lower-container li:hover a {
     color: #EDA3B5;
 }
 
-.first-section {
-    background: url(images/hero.png) center center / cover no-repeat;
-    padding: 103px 0 118px 0;
-    background-color: #b1a9a7;
-    margin-bottom: 71px;
+.header-lower-container li:hover::after {
+    content: '';
+    position: absolute;
+    background-color: #EDA3B5;
+    bottom: -12px;
+    height: 3px;
+    width: 34px;    
+    border-radius: 2px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.first-section-wrapper {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
+.header-lower-container li:last-child:hover::after {
+    width: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* перша секція */
+
+.first-section {
+    background: url(images/hero.png) center center / cover no-repeat;
+    padding-top: 103px;
+    padding-bottom: 118px;
+    background-color: #b1a9a7;
+    margin-bottom: 71px;
 }
 
 .first-section-content {
@@ -166,4 +198,43 @@ a:hover svg {
     background: #fff;
     color: #1B2437;
     border: none;
+}
+
+.second-section-grid-wrapper {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 70px;
+    grid-template-columns: 0.5fr 0.5fr 0.67fr 0.67fr;
+    grid-template-rows: 0.5fr 0.5fr 0.7fr;
+}
+
+.second-section__first_grid_item {
+    background: url(images/women_collection_category.png) center center / cover no-repeat;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.second-section__second_grid_item {
+    grid-column: 3;
+    grid-row: 1;
+    background-color: aqua;
+}
+
+.second-section__third_grid_item {
+    grid-column: 4;
+    grid-row: 1;
+    background-color: aquamarine;
+}
+
+.second-section__fourth_grid_item {
+    grid-column: 3 / span 4;
+    grid-row: 2;
+    background-color: #0051ff;
+    gap: 0;
+}
+
+.second-section__fifth_grid_item {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    background-color: #EDA3B5;
 }
