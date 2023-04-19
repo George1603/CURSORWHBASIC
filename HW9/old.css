@@ -1,0 +1,153 @@
+@import url(./reset_styles.css);
+
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato/Lato-Black.ttf) format('truetype');
+    /* src: url(fonts/Lato/Lato-BlackItalic.ttf) format('truetype'); */
+    src: url(fonts/Lato/Lato-Bold.ttf) format('truetype');
+    /* src: url(fonts/Lato/Lato-BoldItalic.ttf) format('truetype'); */
+    /* src: url(fonts/Lato/Lato-Italic.ttf) format('truetype'); */
+    src: url(fonts/Lato/Lato-Light.ttf) format('truetype');
+    /* src: url(fonts/Lato/Lato-LightItalic.ttf) format('truetype'); */
+    src: url(fonts/Lato/Lato-Regular.ttf) format('truetype');
+    src: url(fonts/Lato/Lato-Thin.ttf) format('truetype');
+    /* src: url(fonts/Lato/Lato-ThinItalic.ttf) format('truetype'); */
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(fonts/product-sans-cdnfonts/ProductSans-Regular.ttf);
+}
+
+
+
+.first-text-type {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #4F4F4F;
+}
+
+.second-text-type {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #4F4F4F;
+}
+
+.blue-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00ADEE;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #333333;    
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    color: #333333;
+}
+
+#sports-logo {
+    font-family: 'Product Sans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282F0;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.first-section {    
+    background-color: #F4F6F9;
+}
+
+.first-section-container {
+    display: flex;
+    /* background: url(images/header\ back.png);
+    background-position: right;
+    background-repeat: no-repeat; */
+    /* width: 100%;
+    max-width: 1275px; */
+}
+
+.first-section-container__content {
+    width: 100%;
+    max-width: 546px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+    padding-top: 9vh;
+    padding-bottom: 20vh;
+}
+
+.first-section-container__first-flex {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 18vh;
+    
+}
+
+.first-section-container__second-flex {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-top: 4.5vh;    
+}
+
+.second-section {
+    /* background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0)), url(images/Ronaldo\ back.png);
+    background-position: left;
+    background-repeat: no-repeat;     */
+}
+
+.second-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.second-section-container__first_block {
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)), url(images/Ronaldo\ back.png) center center / cover no-repeat; */
+    position: relative;    
+    /* width: 60%;
+    padding: 109px 0 264px 0; */
+    /* background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0)), url(images/Ronaldo\ back.png); */
+}
+
+.second-section-container__second_block {
+    width: 100%;
+    max-width: 426px;
+}
+
+#translation-img {
+
+}

@@ -1,1 +1,336 @@
 @import url(./reset_styles.css);
+
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato/Lato-Black.ttf) format('truetype');   
+    src: url(fonts/Lato/Lato-Bold.ttf) format('truetype');    
+    src: url(fonts/Lato/Lato-Light.ttf) format('truetype');   
+    src: url(fonts/Lato/Lato-Regular.ttf) format('truetype');
+    src: url(fonts/Lato/Lato-Thin.ttf) format('truetype');   
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(fonts/product-sans-cdnfonts/ProductSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.first-section {    
+    background-color: #F4F6F9;
+    padding: 63px 0 164px 0;
+}
+
+.first-section-container__content {
+
+}
+
+.first-section-container__first-flex {
+    display: flex;
+    align-items: baseline;
+    color: #5282F0;
+    font-family: 'Product Sans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    margin-bottom: 133px;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    width: 100%;
+    max-width: 546px;
+    padding-bottom: 30px;
+}
+
+.first-text {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #4F4F4F;
+    width: 100%;
+    max-width: 453px;
+    padding-bottom: 50px;
+}
+
+.first-section-container__second-flex {
+    display: flex;
+    gap: 35px;
+}
+
+.first-section-container__second-flex a {
+    cursor: pointer;
+}
+
+.second-section {
+    padding: 109px 0 117px 0;
+}
+
+.second-section-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.second-section-container__first_block {
+    position: relative;
+    width: 60%;
+}
+
+/* #arsenal-img {
+} */
+
+#translation-img {    
+    position: absolute;
+    top: 175px;
+    left: 104px;
+    z-index: -1;
+}
+
+.second-section-container__second_block {
+    max-width: 426px;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    margin-bottom: 27px;
+}
+
+.second-upper-text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #00ADEE;    
+    padding-bottom: 27px;
+    margin-top: 24px;
+}
+
+.second-section-container__second_block__text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #4F4F4F;
+    margin-bottom: 22px;
+}
+
+.second-lower-text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #00ADEE;
+}
+
+.third-section {
+    /* background: url(images/calling\ phone.png);  */
+    padding: 217px 0 171px 0;
+}
+
+.third-section-container {
+    display: flex;
+    align-items: center;
+}
+
+.third-section__upper_blue_text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #00ADEE;
+    margin-bottom: 27px;
+}
+
+.third-section-container__second_block__text {
+    padding-bottom: 54px;
+}
+
+.third-section__lower_blue_text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #00ADEE;
+}
+
+.third-section-container__content {
+    max-width: 457px;
+}
+
+.fourth-section {
+    background: url(images/blue\ back.png) center center / cover no-repeat;
+    padding: 76px 0 66px 0;
+}
+
+.fourth-section h3 {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    margin: 0 auto;
+    max-width: fit-content;    
+    margin-bottom: 58px;
+}
+
+.fourth-section_grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    color: #fff;
+    grid-column-gap: 87px;
+    grid-row-gap: 50px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+.fifth-section {
+    padding: 62px 0 50px 0;
+}
+
+.fifth-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.fifth-section-container h3 {
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+}
+
+.fifth-section-container .fifth-section-dots {
+    cursor: pointer;
+}
+
+.fifth-section-container__slider_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.sixth-section {
+    padding: 57px 0 68px 0;
+}
+
+.sixth-section-container h3 {
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.sixth-section-flex {
+    display: flex;
+    gap: 80px;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sixth-section-flex img {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.seventh-section {
+    padding: 105px 0 98px 0;
+    display: flex;
+    align-items: center;
+}
+
+.seventh-section-container {
+    width: 100%;
+    max-width: 535px;
+    margin-left: auto;
+}
+
+.seventh-section-container__lower_flex {
+    display: flex;
+    gap: 35px;
+}
+
+.seventh-section-container h3 {
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    margin-bottom: 35px;
+}
+
+.seventh-section-container p {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #4F4F4F;
+    margin-bottom: 38px;
+}
+
+.eight-section {
+    background: #00ADEE;
+    padding: 51px 0;
+}
+
+.eight-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eight-section-container a {
+    display: flex;
+    align-items: baseline;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Product Sans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+}
+
+.eight-section-container a svg {
+    /* fill: #fff; */
+    /* stroke: #fff; */
+}
