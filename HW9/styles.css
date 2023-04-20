@@ -28,13 +28,21 @@ body {
 .first-section {    
     background-color: #F4F6F9;
     padding: 63px 0 164px 0;
+    background-image: url(images/header\ back.png);
+    background-repeat: no-repeat;
+    background-position: right;    
 }
 
-.first-section-container__content {
-
+.first-section-container {
+    display: flex;
 }
 
-.first-section-container__first-flex {
+.first-section-container__first-flex {    
+    margin-bottom: 133px;
+}
+
+.first-section-container__first-flex a {
+    text-decoration: none;
     display: flex;
     align-items: baseline;
     color: #5282F0;
@@ -42,7 +50,6 @@ body {
     font-size: 24px;
     line-height: 29px;
     letter-spacing: -0.02em;
-    margin-bottom: 133px;
 }
 
 h1 {
@@ -79,6 +86,8 @@ h1 {
 
 .second-section {
     padding: 109px 0 117px 0;
+    background-image: url(images/Ronaldo\ back.png);
+    background-repeat: no-repeat;    
 }
 
 .second-section-container {
@@ -137,6 +146,11 @@ h2 {
     margin-bottom: 22px;
 }
 
+.second-section-container__second_block a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .second-lower-text {
     font-family: 'Lato';
     font-size: 16px;
@@ -147,8 +161,10 @@ h2 {
 }
 
 .third-section {
-    /* background: url(images/calling\ phone.png);  */
+    background: url(images/calling\ phone.png); 
     padding: 217px 0 171px 0;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .third-section-container {
@@ -181,6 +197,11 @@ h2 {
 
 .third-section-container__content {
     max-width: 457px;
+}
+
+.third-section-container__content a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .fourth-section {
@@ -226,6 +247,10 @@ h2 {
     gap: 50px;
 }
 
+.fifth-section-container__slider_wrapper svg {
+    cursor: pointer;
+}
+
 .fifth-section-container h3 {
     font-family: 'Lato';
     font-size: 28px;
@@ -242,6 +267,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -276,6 +302,8 @@ h2 {
     padding: 105px 0 98px 0;
     display: flex;
     align-items: center;
+    background-image: url(images/last\ back.png);
+    background-repeat: no-repeat;
 }
 
 .seventh-section-container {
@@ -308,18 +336,19 @@ h2 {
     margin-bottom: 38px;
 }
 
-.eight-section {
+.footer-section {
     background: #00ADEE;
     padding: 51px 0;
 }
 
-.eight-section-container {
+.footer-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.eight-section-container a {
+.footer-section-container a {
     display: flex;
     align-items: baseline;
     text-decoration: none;
@@ -328,9 +357,36 @@ h2 {
     font-size: 24px;
     line-height: 29px;
     letter-spacing: -0.02em;
+    cursor: pointer;
 }
 
-.eight-section-container a svg {
-    /* fill: #fff; */
-    /* stroke: #fff; */
+.first-path {
+    fill: #00ADEE;
+}
+
+.second-path {
+    fill: #fff;
+}
+
+.footer-section-container ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 37px;
+    flex-wrap: wrap;
+}
+
+.footer-section-container ul a:hover {
+    text-decoration: underline;
+}
+
+.social-networks {
+    display: flex;
+    cursor: pointer;
+    gap: 17px;
+}
+
+.social-networks svg:hover {
+    transform: scale(1.2);
+	transition: 0.5s;
 }
