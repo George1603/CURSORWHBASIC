@@ -1,17 +1,27 @@
 @import url(./reset_styles.css);
 
 @font-face {
-    font-family: 'Lato';
-    src: url(fonts/Lato/Lato-Black.ttf) format('truetype');   
-    src: url(fonts/Lato/Lato-Bold.ttf) format('truetype');    
-    src: url(fonts/Lato/Lato-Light.ttf) format('truetype');   
-    src: url(fonts/Lato/Lato-Regular.ttf) format('truetype');
-    src: url(fonts/Lato/Lato-Thin.ttf) format('truetype');   
+    font-family: 'Lato', sans-serif;
+    /* src: url(../fonts/Lato/Lato-Black.ttf); */
+    src: url(../HW9/fonts/Lato/Lato-Black.ttf);
+    font-weight: 700;   
+    /* src: url(fonts/Lato/Lato-Bold.ttf) format('truetype');    
+    src: url(fonts/Lato/Lato-Light.ttf) format('truetype');    */    
+    /* src: url(fonts/Lato/Lato-Thin.ttf) format('truetype');    */
 }
 
 @font-face {
-    font-family: 'Product Sans';
-    src: url(fonts/product-sans-cdnfonts/ProductSans-Regular.ttf);
+    font-family: 'Lato', sans-serif;
+    /* src: url(../fonts/Lato/Lato-Regular.ttf); */
+    src: url(../HW9/fonts/Lato/Lato-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Product Sans', sans-serif;
+    /* src: url(../fonts/product-sans-cdnfonts/ProductSans-Regular.ttf); */
+    src: url(../HW9/fonts/product-sans-cdnfonts/ProductSans-Regular.ttf);
+    font-weight: 400;
 }
 
 body {
@@ -46,27 +56,28 @@ body {
     display: flex;
     align-items: baseline;
     color: #5282F0;
-    font-family: 'Product Sans';
+    font-family: 'Product Sans', sans-serif;
     font-size: 24px;
     line-height: 29px;
+    font-weight: 700;
     letter-spacing: -0.02em;
 }
 
 h1 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0.03em;
     width: 100%;
-    max-width: 546px;
+    max-width: 570px;
     padding-bottom: 30px;
 }
 
 .first-text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
     color: #4F4F4F;
@@ -99,6 +110,7 @@ h1 {
 .second-section-container__first_block {
     position: relative;
     width: 60%;
+    /* background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(images/Ronaldo\ back.png) no-repeat; */
 }
 
 #arsenal-img {
@@ -119,7 +131,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 37px;
@@ -128,7 +140,7 @@ h2 {
 }
 
 .second-upper-text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -139,7 +151,7 @@ h2 {
 }
 
 .second-section-container__second_block__text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
@@ -154,7 +166,7 @@ h2 {
 }
 
 .second-lower-text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -175,7 +187,7 @@ h2 {
 }
 
 .third-section__upper_blue_text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -186,10 +198,15 @@ h2 {
 
 .third-section-container__second_block__text {
     padding-bottom: 54px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
 }
 
 .third-section__lower_blue_text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 21px;
@@ -217,7 +234,7 @@ h2 {
 
 .fourth-section h3 {
     color: #fff;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 37px;
@@ -234,7 +251,7 @@ h2 {
     color: #fff;
     grid-column-gap: 87px;
     grid-row-gap: 50px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
@@ -266,7 +283,7 @@ h2 {
 }
 
 .fifth-section-container h3 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 37px;
@@ -290,7 +307,7 @@ h2 {
 }
 
 .sixth-section-container h3 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 37px;
@@ -314,7 +331,7 @@ h2 {
 }
 
 .seventh-section {
-    padding: 105px 0 98px 0;
+    padding: 105px 0 89px 0;
     display: flex;
     align-items: center;
     background-image: url(images/last\ back.png);
@@ -333,7 +350,7 @@ h2 {
 }
 
 .seventh-section-container h3 {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 37px;
@@ -342,7 +359,7 @@ h2 {
 }
 
 .seventh-section-container p {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
@@ -372,7 +389,7 @@ h2 {
     align-items: baseline;
     text-decoration: none;
     color: #fff;
-    font-family: 'Product Sans';
+    font-family: 'Product Sans', sans-serif;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: -0.02em;
@@ -433,9 +450,9 @@ h2 {
     max-width: 250px;
     width: 100%;
     }
-    .first-text {
+    /* .first-text {
         color: black;
-    }
+    } */
     .third-section {
         background-position: 65%;
     }    
@@ -451,9 +468,11 @@ h2 {
     }
     .seventh-section__mobile_img {
         display: block;
+        width: 100%;
     }
     .seventh-section__mobile_img img {
         display: block;
+        width: 100%;
     }
     .seventh-section__mobile_container {
         display: flex;
